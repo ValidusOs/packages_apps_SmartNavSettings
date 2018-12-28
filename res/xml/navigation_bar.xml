@@ -18,7 +18,7 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" >
 
-    <SwitchPreference
+    <com.gzr.wolvesden.preference.SecureSettingSwitchPreference
         android:key="navbar_visibility"
         android:title="@string/navbar_visibility" />
 
